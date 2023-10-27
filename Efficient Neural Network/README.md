@@ -1,5 +1,8 @@
 # Efficient Neural Network Building: Simplifying Computations with 1D Vectors in Python and Boosting Speed with Rust
 
+Busybox Docker Image: [efficient-neural-network.tar](efficient-neural-network.tar)
+Alpine rust executable: [run_alpine](run_alpine)
+
 In developing my neural network (NN), I took a unique approach by utilizing a 1D weight vector for the required number of weights. This method simplifies forward NN calculations by accessing the 1D weight as a 2D weight, enhancing ease during backpropagation. I extended this simplicity to bias calculations as well. The project, implemented in both Python and Rust, addresses a common challenge of decreasing Python speed as the number of neurons increases. Leveraging Rust for performance, this dual-language implementation ensures efficient and scalable neural network development, offering a streamlined solution for both computation and speed optimization.
 
 ## Python code
