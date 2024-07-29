@@ -13,7 +13,7 @@
 
 # Deep Learning in C
 
-[main.c](DL in C/main.c)
+[main.c](DL_in_C/main.c)
 
 ```
 $ make
